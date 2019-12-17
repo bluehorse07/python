@@ -1,0 +1,25 @@
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+id_number = int(input("Student ID: "))
+Star49 = "*************************************************"
+StarEnd = "*                                               *"
+print(Star49)
+print(StarEnd)
+print("*\t" + last_name + ", " + first_name + "\t\tID: " + str(id_number) + "\t*")
+print(StarEnd)
+print(Star49)
+print(StarEnd)
+myclass = " "
+room = 0
+c = 1
+while (myclass != "STOP" ):
+	myclass = input ("Enter the next class, STOP to end: ")
+	if (myclass != "STOP"):
+		room = int(input("Enter the room number: "))
+		print("*\tBlock " + str(c) + ": " + myclass + "\tRoom: " + str(room) +" \t*")
+		c = c + 1
+print(StarEnd)
+print(Star49)
+print(StarEnd)
+print(Star49)
+
